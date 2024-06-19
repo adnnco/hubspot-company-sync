@@ -1,0 +1,17 @@
+{
+  "name": "hubsync/hubspot-company-sync",
+  "description": "This plugin synchronizes company data with Hubspot API.",
+  "type": "plugin",
+  "autoload": {
+    "psr-4": {
+      "HubspotCompanySync\\": "./includes"
+    }
+  },
+  "authors": [
+    {
+      "name": "adnnco",
+      "email": "adnnco@gmail.com"
+    }
+  ],
+  "require": {}
+}

@@ -1,5 +1,4 @@
 <?php
-
 /*
 * Plugin Name: Hubspot Company Sync
 * Plugin URI: https://github.com/adnnco/hubspot-company-sync
@@ -10,6 +9,17 @@
 * Author: adnnco
 * Author URI: https://github.com/adnnco/
 */
+
+if ( file_exists( dirname( __FILE__ ) . '/vendor/autoload.php' ) ) {
+	require dirname( __FILE__ ) . '/vendor/autoload.php';
+}
+
+define( 'HUBSYNC_PATH', plugin_dir_path( __FILE__ ) );
+define( 'HUBSYNC_URL', plugin_dir_url( __FILE__ ) );
+
+if ( class_exists( 'HubspotCompanySync\Init' ) ) {
+	HubspotCompanySync\Init::register_services();
+}
 
 
 /**
