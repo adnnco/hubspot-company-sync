@@ -26,6 +26,7 @@ final class Init {
 		return array(
 			Admin\SettingsApiKey::class,
 			Admin\PostMetaBoxes::class,
+			Admin\PostSaveTaxonomies::class,
 
 		);
 	}
