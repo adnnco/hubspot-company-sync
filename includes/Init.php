@@ -23,10 +23,12 @@ final class Init {
 	 * @return array Full list of classes
 	 */
 	public static function get_services(): array {
+
 		return array(
 			Admin\SettingsApiKey::class,
 			Admin\PostMetaBoxes::class,
 			Admin\PostSaveTaxonomies::class,
+			Admin\PostDataCompanySync::class,
 
 		);
 	}

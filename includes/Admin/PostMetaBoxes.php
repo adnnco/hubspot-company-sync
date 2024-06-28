@@ -44,12 +44,12 @@ class PostMetaBoxes implements InitRegister {
 		echo '<label for="hubspot_company_id_field">';
 		_e( 'Hubspot Company ID', 'hubsync' );
 		echo '</label> ';
-		echo '<input type="text" id="hubspot_company_id_field" name="hubspot_company_id_field" value="' . esc_attr( $hubspot_company_id ) . '"><br><br>';
+		echo '<input type="text" id="hubspot_company_id_field" name="hubsync_company_id" value="' . esc_attr( $hubspot_company_id ) . '"><br><br>';
 
 		echo '<label for="hubspot_company_sync_date_field">';
 		_e( 'Hubspot Company Sync Date', 'hubsync' );
 		echo '</label> ';
-		echo '<input type="text" id="hubspot_company_sync_date_field" name="hubspot_company_sync_date_field" value="' . esc_attr( $hubspot_company_sync_date ) . '" disabled><br><br>';
+		echo '<input type="text" id="hubspot_company_sync_date_field" name="hubsync_company_updatedAt" value="' . esc_attr( $hubspot_company_sync_date ) . '" disabled><br><br>';
 
 		echo '<button type="button" class="button button-primary" onclick="window.open(\'https://app-eu1.hubspot.com/contacts/144900325/company/' . esc_attr( $hubspot_company_id ) . '\', \'_blank\');">';
 		_e( 'View in Hubspot', 'hubsync' );
