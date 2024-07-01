@@ -1,4 +1,4 @@
-# About Me
+# About
 This plugin is about syncing HubSpot and WordPress. Custom post types and taxonomy structures in WordPress can be synced with HubSpot. This plugin uses custom post types and taxonomies that are created. If you want, you can change all the data yourself. Basic usage is below.
 
 ## Installation
