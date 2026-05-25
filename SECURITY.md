@@ -4,10 +4,8 @@
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability, please report it privately using one of the following channels:
+If you discover a security vulnerability, please report it privately using GitHub Private Vulnerability Reporting:
 
 1. **GitHub Private Vulnerability Reporting** (preferred) — go to the repository's **Security** tab and click **"Report a vulnerability"**. This creates a private advisory visible only to maintainers and provides a structured workflow for triage, fix coordination, and CVE assignment.
-
-2. **Email** — send the details to [YOUR NAME] at **your@email.com**.
 
 All security vulnerabilities will be promptly addressed.
