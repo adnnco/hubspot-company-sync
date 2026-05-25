@@ -8,4 +8,4 @@ If you discover a security vulnerability, please report it privately using GitHu
 
 1. **GitHub Private Vulnerability Reporting** (preferred) — go to the repository's **Security** tab and click **"Report a vulnerability"**. This creates a private advisory visible only to maintainers and provides a structured workflow for triage, fix coordination, and CVE assignment.
 
-All security vulnerabilities will be promptly addressed.
+We aim to acknowledge vulnerability reports within 5 business days and will work with reporters to remediate validated issues.
